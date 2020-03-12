@@ -1,7 +1,7 @@
 ---
 
 - id: 4cd4eb44-29a7-4259-91ae-e457b283a880
-  name: Delete payloads
+  name: Delete payload
   description: Remove all downloaded payloads
   tactic: execution
   technique:
