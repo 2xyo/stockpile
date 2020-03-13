@@ -1,0 +1,18 @@
+---
+
+- id: 4cd4eb44-29a7-4259-91ae-e457b283a880
+  name: Delete payload
+  description: Remove a downloaded payload file
+  tactic: cleanup
+  technique:
+    attack_id: 1
+    name: File System
+  platforms:
+    darwin:
+      sh:
+        cleanup: |
+          rm #{payload}
+    linux:
+      sh:
+        cleanup: |
+          rm #{payload}
